@@ -22,14 +22,20 @@
    Commit change sirve para guardar los cambios realizados dentro de una branch, pero estos cambios solo se guardan en la branch en la que se hicieron los cambios.
  * GiyHub Workflow: <br>
  Es un proceso automatizado el cual automaticamente se agrega a un repositorio. Este te permite gestionar los cambios al codigo y garantizar que este disponible para todo el equipo.
- * Pull Request
-   * Compare Branch
-   * Create Pull Request
-   * Merge Pull Request
- * Conflicts
+ * Pull Request: <br>
+   * Compare Branch: <br>
+   Esta opciòn aparece a la hora de seleccionar a que branch nosotros queremos agregarle los cambios cometidos en nuestra branch.
+   * Create Pull Request:
+   Esto crea una "pull request". Una pull request sirve para modificar otra branch al agregarle los cambios cometidos en nuestra propia branch.
+   * Merge Pull Request:
+   Es la confirmaciòn de que las ramas van a "merge" (combinarse), lo que significa que los cambios de la rama que estamos usando se agregaran a la rama a la que elegimos en "Compare Branch".
+ * Conflicts: <br>
+ Son problemas o conflictos que se dan entre los archivos entre los que se quiere hacer un "Merge Pull Request".
   * Conflicts Marks :
     * "<<<<<<<<<"
+    Lo que esta entre estas lineas es lo que tenias en tu branch local.
     * "========="
+    Lo que esta entre estas lineas es lo que se agrega (los pulls commit).
     * ">>>>>>>>>"
 
  * Reviews
