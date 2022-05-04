@@ -32,9 +32,9 @@
  * Conflicts: <br>
  Son problemas o conflictos que se dan entre los archivos entre los que se quiere hacer un "Merge Pull Request".
   * Conflicts Marks :
-    * "<<<<<<<<<"
+    * "<<<<<<<<<" <br>
     Lo que esta entre estas lineas es lo que tenias en tu branch local.
-    * "========="
+    * "=========" <br>
     Lo que esta entre estas lineas es lo que se agrega (los pulls commit).
     * ">>>>>>>>>"
 
