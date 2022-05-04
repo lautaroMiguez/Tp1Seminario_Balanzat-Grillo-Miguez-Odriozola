@@ -27,12 +27,18 @@
     * "========="
     * ">>>>>>>>>"
 
- * Reviews
-  * obligatory Reviews
- * en atom y github desktop
-  * Fetch
-  * Push
-  * Staged vs Unstaged Changes
+ ### Reviews:
+   * Required Reviews: <br>
+    A diferencia de las reviews normales, estas necesitan una cantidad especifica de votos para ser aprobada
+   * En atom y github desktop: <br>
+    
+     * Fetch: <br>
+      Con esta accion podemos descargar contenido de un repositorio remoto a nuestro repositorio local
+     * Push: <br>
+      Es la accion que permite que carguemos contenido de un repositorio local a otro remoto 
+     * Staged vs Unstaged Changes:<br>
+      Los cambios staged son los que estan masrcados como commit, los unstaged no estan marcados, porque son una modificación directa al archivo
+   
 
 
 
